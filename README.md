@@ -94,11 +94,11 @@ Model is ~70% accurate on testing data with a loss function of 0.56
 
 <img src='images/larry_confusion.PNG'>
 
-Model Peformance Metrics:
-Precision: 0.7425886712546321
-Recall: 0.6138949671772429
-Accuracy: 0.6966136451809566
-F1-Score: 0.6721370388116915
+Model Peformance Metrics:<br>
+Precision: 0.7425886712546321<br>
+Recall: 0.6138949671772429<br>
+Accuracy: 0.6966136451809566<br>
+F1-Score: 0.6721370388116915<br>
 
 Full notebook for Deep Learning Classifier:<br>
 https://github.com/ktzioumis/The-Seinfeld/blob/master/Larry%20David.ipynb
