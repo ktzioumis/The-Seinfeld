@@ -45,7 +45,7 @@ The dataset can be found on kaggle [here](https://www.kaggle.com/thec03u5/seinfe
 
 <img src="images/writers_bar.PNG">
 
-<img src='writers_wordcloud.PNG'>
+<img src='images/writers_wordcloud.PNG'>
 
 Jerry Seinfeld and Larry David noticable were much more active in writing for the earlier seasons and not at all in the final seasons. Larry David left the show completely after season 7 and only returned for the final episode 'The Finale' Larry David is clearly the most prolific of the writers, writing for 58 episodes nearly a third of the shows 174 episode run. The two next most credited writers Peter Mehlman and Larry Charles wrote on 19 episodes each. Interestingly, Peter Mehlman wrote for every season after season 1 but Larry Charles wrote only from season 2 to Season 5 Jerry Seinfeld himself, the shows co-creator and star, rounds out the top of the writers with 18 credits most of which are written alongside Larry David, Jerry too ceased to write for the show after season 7.
 
@@ -53,22 +53,22 @@ Jerry Seinfeld and Larry David noticable were much more active in writing for th
 
 Writers' gender's guessed using the python library gender-guesser https://pypi.org/project/gender-guesser/
 
-<img src='gender_pies.PNG'>
+<img src='images/gender_pies.PNG'>
 
-<img src='gender_season_pies.PNG'>
+<img src='images/gender_season_pies.PNG'>
 
 17 episodes from the shows run of 174 episodeshave at least one female writer
 The first season to have a female writer is Season 3, the seasons with the highest female contributions to writing are Seasons 6 and 8 with 4 of each of the 22 episodes having at least one female writer
 
 # The Main Character
 
-<img src = 'lines_bar.PNG'>
+<img src = 'images/lines_bar.PNG'>
 
 Jerry has the most lines both overall and in every Season, no wonder the show is named after him. He is  followed by George then Elaine then Kramer.
 
 While writing their own sitcom pilot Jerry and George remark how difficult it is for them to write for a woman. The Seinfeld writer's room is heavily male dominated but women did write on almost 10% of all episodes. Are female writers more willing to write for a woman?
 
-<img src='lines_fem.PNG'>
+<img src='images/lines_fem.PNG'>
 
 Visually it looks very similar to elaine's overall contribution to the show but I'm interested so lets apply some statistical analysis. Using a 2 sided t-test with unequal variance (Welch's t-test) between the number of lines written for elaine in episodes that do and do not have a female writer.<br>
 The null hypothesis for this test that having a female writer on  the episode makes no difference to the number of lines written for elaine:<br>
@@ -92,7 +92,7 @@ The best model has been used for evaluation on the test sample. Bidirectional Ga
 
 Model is ~70% accurate on testing data with a loss function of 0.56
 
-<img src='larry_confusion.PNG'>
+<img src='images/larry_confusion.PNG'>
 
 Model Peformance Metrics:
 Precision: 0.7425886712546321
