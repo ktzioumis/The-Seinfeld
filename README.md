@@ -83,7 +83,7 @@ The p-value is well above our threshold to reject the null hypothesis that havin
 Full notebook for Exploratory Data Analysis and Visualisation:<br>
 https://github.com/ktzioumis/The-Seinfeld/blob/master/The-Seinfeld.ipynb
 
-## The Larry David
+# The Larry David
 Larry David was by far the show's most prolific writer, credited on a third of the total episodes produced. By using a a Keras Deep Learning Model with Natural Language Processing can we tease out Larry David's signature in the dialogue of Seinfeld?
 
 An iterative approach is it taken to model constuction. Each model starts with an Embedding layer and outputs to a single Densely connected node with sigmoid activation. Models are fit for 4 or 5 epochs with batch size of 32 and validation split of 0.1. The lowest validation loss generally occurs after the second epoch and the saved model will reflect this optimization.
