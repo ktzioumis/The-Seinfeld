@@ -20,7 +20,7 @@ This year there have been multiple 30th anniversay celebrations and shows such a
 There is huge scope for machine learning based products to utilise the Seinfeld name and brand. This notebook will introduce a learning model based on the identifying the writing of Larry David. This basic idea can be extrapolated and built from to create nuerous writing and languaged based tie ins to the Seinfeld brand. For instance a "write like Larry David" teaching tool fro aspiring sit-com writers or a Seinfeld based adventure game   
 
 ## The Fraud Prevention
-Seinfeld is a specific example designed for fun and to  be eye-catching but fun and eye-catching can be great introductions techniques to a much more serious subject. More broadly, this type of authorship verification can be generalized to the field of fraud prevention. Training a deep learning model on writing samples from an individual the same way that has been done here could be used as part of a fraud prevention device designed to detect imposters in things like business and email correspondence
+Seinfeld is a specific example designed for fun and to be eye-catching but fun and eye-catching can be great introductions techniques to a much more serious subject. More broadly, the type of authorship verification explored in the Larry David Classifier can be generalized to the field of fraud prevention. Training a deep learning model on writing samples from an individual the same way that has been done here could be used as part of a fraud prevention device designed to detect imposters in things like business and email correspondence
 
 ### The CEO Fraud
 CEO fraud is a perfect candidate for this kind of implementation. 
@@ -70,7 +70,7 @@ While writing their own sitcom pilot Jerry and George remark how difficult it is
 
 <img src='images/lines_fem.PNG'>
 
-Visually it looks very similar to elaine's overall contribution to the show but I'm interested so lets apply some statistical analysis. Using a 2 sided t-test with unequal variance (Welch's t-test) between the number of lines written for elaine in episodes that do and do not have a female writer.<br>
+Visually it looks very similar to elaine's overall contribution to the show but I'm interested so lets verify with some statistical analysis. Using a 2 sided t-test with unequal variance (Welch's t-test) between the number of lines written for elaine in episodes that do and do not have a female writer.<br>
 The null hypothesis for this test that having a female writer on  the episode makes no difference to the number of lines written for elaine:<br>
 H0: fem_mu == no_fem_mu<br>
 H1: fem_mu != no_fem_mu<br>
